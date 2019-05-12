@@ -10,10 +10,9 @@ def key_for_min_value(name_hash)
   end
   
   name_hash_values.each_with_index do |value, i|
-    until (i += 1) == name_hash_values.size
+    while i < name_hash_values.size
       if value < name_hash_values[i += 1]
         value
-      else name_hash_values[i += 1]
       end
     end
   end
