@@ -26,9 +26,6 @@ def key_for_min_value(name_hash)
 
   smallest
 
-name_hash.key(smallest)
+  name_hash.key(smallest)
 
 end
-
-
-key_for_min_value(hash)
