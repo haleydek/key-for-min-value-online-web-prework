@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
       if value < name_hash_values[i += 1]
         value
       else name_hash_values[i += 1]
+      end
     end
   end
 end
